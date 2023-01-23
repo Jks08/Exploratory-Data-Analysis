@@ -69,6 +69,7 @@ app.layout = html.H1(children=[
 ], style={'backgroundColor':'White'})
 
 @app.callback(Output("graph", "figure"), [Input("dropdown", "value")])
+
 # def update_graph(dropdown):
 #     fig = px.histogram(df, x=dropdown, color="Attrition", title=f"Attrition vs {dropdown}")
 #     return fig
