@@ -7,7 +7,8 @@ import pandas as pd
 from dash.dependencies import Input, Output 
 import dash
 
-df = pd.read_csv("/Users/jishnusrivastava/Documents/Exploratory-Data-Analysis/IBM_HR.csv")
+# df = pd.read_csv("/Users/jishnusrivastava/Documents/Exploratory-Data-Analysis/IBM_HR.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/Jks08/Exploratory-Data-Analysis/main/IBM_HR.csv")
 df.tail()
 
 data = [go.Bar(x=df['Age'],y=df['TotalWorkingYears'])]
@@ -44,6 +45,7 @@ tempFig = px.line_3d(df,x='Age',y='TotalWorkingYears',z='MonthlyIncome', color =
 # options
 
 app = dash.Dash()
+server = app.server
 
 app.layout = html.H1(children=[
     html.P(
