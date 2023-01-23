@@ -45,6 +45,7 @@ tempFig = px.line_3d(df,x='Age',y='TotalWorkingYears',z='MonthlyIncome', color =
 # options
 
 app = dash.Dash()
+app.title = 'Attrition Analysis - JKS'
 server = app.server
 
 app.layout = html.H1(children=[
