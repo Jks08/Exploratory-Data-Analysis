@@ -65,7 +65,10 @@ app.layout = html.H1(children=[
         html.P(children='4 Subplots 🥱',style={'textAlign':'center','color':'Red'}),
         dcc.Graph(id='graph3',figure=fig1)
     ]
-    )
+    ),
+    html.Div([
+        html.P(children='JKS ',style={'textAlign':'center','color':'Black', 'fontSize':50,'fontFamily':'Courier New'}),
+    ])
 ], style={'backgroundColor':'White'})
 
 @app.callback(Output("graph", "figure"), [Input("dropdown", "value")])
