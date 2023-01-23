@@ -1,2 +1,5 @@
 # Exploratory-Data-Analysis
-Projects related to EDA by me.
+
+The live Website for this can be found here: https://attrition-analysis.onrender.com
+
+It will be updated periodically with more analysis on other attributes.
