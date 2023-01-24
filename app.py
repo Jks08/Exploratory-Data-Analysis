@@ -68,6 +68,15 @@ app.layout = html.H1(children=[
     ]
     ),
     html.Div([
+        html.H1(children='Key Findings and Insights ',style={'textAlign':'left','color':'#00C68B', 'fontSize':50,'fontFamily':'Times New Roman'}),
+        html.P(children="🟡 'Attrition' was at 66.67% for 19 year olds, but then the 'Attrition' rate drastically drops until employees hit the age of 58, whereafter 'Attrition' jumps up to 35.71%.",style={'textAlign':'left','color':'Black', 'fontSize':20,'fontFamily':'Times New Roman'}),
+        html.P(children="🟡 When 'YearsAtCompany' was 0 the 'Attrition' rate was 36.36%, whereas when 'Years at Company' became 1, the attrition rate was 34.50%.", style={'textAlign':'left','color':'Black', 'fontSize':20,'fontFamily':'Times New Roman'}),
+        html.P(children="🟡 For the 'MaritalStatus - Single' the attrition rate was 25.53%, and interestingly it was much lower for married people at 12.48% and even lower for divorced at 10.09%.", style={'textAlign':'left','color':'Black', 'fontSize':20,'fontFamily':'Times New Roman'}),
+        html.P(children="🟡 The 'Attrition' rate was 25.00% for 'JobSatisfaction' of 1, but then it dropped to 16.67% for 'JobSatisfaction' of 2, and then it dropped even further to 12.50% for 'JobSatisfaction' of 3.", style={'textAlign':'left','color':'Black', 'fontSize':20,'fontFamily':'Times New Roman'}),
+        html.P(children="🟡 'EducationField' of Human Resources has an 'Attrition' rate of 25.92%, whereas that of Medical was at 13.57%.", style={'textAlign':'left','color':'Black', 'fontSize':20,'fontFamily':'Times New Roman'}),
+        html.P(children="🟡 When 'TotalWorkingYears' was 0 the attrition rate was 45.45%, when 1 the attrition rate was 49.38% and at 40 it was 100%, due to retirement.", style={'textAlign':'left','color':'Black', 'fontSize':20,'fontFamily':'Times New Roman'}),
+    ]),
+    html.Div([
         html.P(children='JKS ',style={'textAlign':'center','color':'Black', 'fontSize':50,'fontFamily':'Courier New'}),
     ])
 ], style={'backgroundColor':'White'})
