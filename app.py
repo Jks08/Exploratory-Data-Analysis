@@ -219,7 +219,7 @@ app.layout = html.H1(children=[
     ]),
     html.Div([
         html.H1(children="Conclusion",style={'textAlign':'left','color':'#00C68B', 'fontSize':50,'fontFamily':'Times New Roman'}),
-        html.P(children="coming soon", style={'textAlign':'left','color':'Black', 'fontSize':15,'fontFamily':'Times New Roman'}),
+        html.P(children="🟡 We conclude that Attrition has a higher percentage when employees are younger than compared to older. Also, as Job Satisfaction increases, Attrition becomes lesser.", style={'textAlign':'left','color':'Black', 'fontSize':15,'fontFamily':'Times New Roman'}),
     ]),
     html.Div([
         html.H1(children='By - JKS ', style={'textAlign':'center','color':'Black', 'fontSize':50,'fontFamily':'Courier New'})
